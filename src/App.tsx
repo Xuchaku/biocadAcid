@@ -1,4 +1,4 @@
-import { Alert, Snackbar, Stack, type SnackbarCloseReason } from '@mui/material';
+import { Alert, Snackbar, Stack } from '@mui/material';
 import { useForm, FormProvider } from 'react-hook-form';
 import { FormInput } from './components/FormInput';
 import type { InputValues } from './types';
@@ -28,11 +28,7 @@ function App() {
       setOpenCopy(true);
    }, []);
 
-   const handleClose = (event?: React.SyntheticEvent | Event, reason?: SnackbarCloseReason) => {
-      if (reason === 'clickaway') {
-         return;
-      }
-
+   const handleClose = () => {
       setOpenCopy(false);
    };
 

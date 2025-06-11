@@ -9,7 +9,7 @@ type FormInputProps = {
 };
 
 export const FormInput = memo(({ onSubmit }: FormInputProps) => {
-   const { register, formState, subscribe, setError, clearErrors, handleSubmit, getValues } =
+   const { register, formState, subscribe, setError, clearErrors, getValues } =
       useFormContext<InputValues>();
 
    const { errors } = formState;
