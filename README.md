@@ -1,14 +1,14 @@
 # React + TypeScript + Vite
 
-Тестовое задание
+## Тестовое задание
 
-Использованы: Typescript + React + Mui + Hook Form + Yup + Eslint
-Реализовано: корректный перенос аминокислот в зависимости от ширины экрана, валидация формы, копирование последовательности аминокислот
+-  Использованы: Typescript + React + Mui + Hook Form + Yup + Eslint
+-  Реализовано: корректный перенос аминокислот в зависимости от ширины экрана, валидация формы, копирование последовательности аминокислот
 
 ## Установка
 
--  git clone
--  cd ./biocad-project
+-  git clone https://github.com/Xuchaku/biocadAcid.git
+-  cd ./biocadAcid
 -  npm i
 -  npm run dev
 -  localhost:5173
