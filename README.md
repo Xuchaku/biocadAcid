@@ -12,3 +12,5 @@
 -  npm i
 -  npm run dev
 -  localhost:5173
+
+vercel: https://biocad-acid-4e9y.vercel.app/

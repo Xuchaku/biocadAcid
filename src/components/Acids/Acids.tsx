@@ -55,6 +55,7 @@ export const Acids = memo(({ acids, handleCopy }: AcidsProps) => {
             setArrsAcids(strs);
          }
       }, 200);
+      resizeHandler();
       window.addEventListener('resize', resizeHandler);
       return () => window.removeEventListener('resize', resizeHandler);
    }, [acids.firstAcid]);
